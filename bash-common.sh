@@ -1,4 +1,4 @@
-apt install nfs-common htop ncdu net-tools nmap -y
+sudo apt install nfs-common htop ncdu net-tools nmap -y
 
 cat << EOF >> ~/.bashrc
 alias ls='ls $LS_OPTIONS'
